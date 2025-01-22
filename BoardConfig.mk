@@ -46,8 +46,5 @@ BOARD_SYSTEMIMAGE_PARTITION_SIZE := 2147483648
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 TARGET_RECOVERY_PIXEL_FORMAT := "RGB_565"
 
-# Shipping API
-PRODUCT_SHIPPING_API_LEVEL := 22
-
 # Inherit from proprietary files
 include vendor/oppo/r7sm/BoardConfigVendor.mk
