@@ -13,4 +13,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_r7sf.mk
+    $(LOCAL_DIR)/lineage_r7sm.mk
+
+COMMON_LUNCH_CHOICES := \
+    lineage_r7sm-user \
+    lineage_r7sm-userdebug \
+    lineage_r7sm-eng
